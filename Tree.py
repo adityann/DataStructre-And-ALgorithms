@@ -1,10 +1,10 @@
 import ipdb
 class BinaryTree(object):
 
-    def __init__(self, rootObj):
-        self.key = rootObj
-        self.leftChild = None
-        self.rightChild = None
+    # def __init__(self, rootObj):
+    #     self.key = rootObj
+    #     self.leftChild = None
+    #     self.rightChild = None
 
     def insertLeft(self, newnode):
         if self.leftChild == None:
